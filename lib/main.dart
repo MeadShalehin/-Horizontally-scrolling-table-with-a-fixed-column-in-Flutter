@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
 
 class DataTableScrollExample extends StatelessWidget {
   const DataTableScrollExample();
+  //testing
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +51,7 @@ class DataTableScrollExample extends StatelessWidget {
             ),
             // Scrollable columns
             Container(
-        
+
               width:  MediaQuery.of(context).size.width-130,
               child: SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
